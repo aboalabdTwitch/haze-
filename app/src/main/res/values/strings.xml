@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WL3HA</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="the_artist">The Artist</string>
+    <string name="places_api_key" />
+</resources>

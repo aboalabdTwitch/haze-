@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="MY ACCOUNT">
+
+            <item android:title="Booking History"
+                android:id="@+id/HistoryEvent"></item>
+            <item android:title="Inbox"
+                android:id="@+id/Inbox"></item>
+            <item android:title="Friends"
+                android:id="@+id/Friends"
+                ></item>
+            <item android:title="Notification"
+                android:id="@+id/Notification"></item>
+        </item>
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="EVENTS">
+
+            <menu>
+                <item android:title="The Artist"
+                    android:id="@+id/Artist"></item>
+                <item
+                    android:id="@+id/CreateEventID"
+                    android:title="Create an Event "></item>
+                <item android:title="History Event"
+                    android:id="@+id/History"></item>
+
+                <item android:title="My Events"
+                    android:id="@+id/MyEvent"></item>
+                <item android:title="Favorite"
+                    android:id="@+id/Favorite"></item>
+            </menu>
+        </item>
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="HELP">
+            <menu>
+                <item android:title="Setting"
+                    android:id="@+id/Setting"/>
+                <item android:title="NEED HELP ?"
+                    android:id="@+id/Help"/>
+
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+            <item android:title="LogOut"
+                android:id="@+id/LogOut"/>
+    </group>
+
+
+
+</menu>

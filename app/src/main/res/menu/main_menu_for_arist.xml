@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="MY ACCOUNT">
+
+
+            <item android:title="Inbox"
+                android:id="@+id/InboxForArtist"></item>
+            <item android:title="Friends"
+                android:id="@+id/FriendsForArtist"
+                ></item>
+            <item android:title="Notification"
+                android:id="@+id/NotificationForArtist"></item>
+        </item>
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="EVENTS">
+
+            <menu>
+
+
+                <item android:title="History Event"
+                    android:id="@+id/HistoryForArtist"></item>
+
+                <item android:title="My Events"
+                    android:id="@+id/MyEventForArtist"></item>
+                <item android:title="Favorite"
+                    android:id="@+id/FavoriteForArtist"></item>
+            </menu>
+        </item>
+
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="HELP">
+            <menu>
+                <item android:title="Setting"
+                    android:id="@+id/SettingForArtist"/>
+                <item android:title="NEED HELP ?"
+                    android:id="@+id/HelpForArtist"/>
+
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="LogOut"
+            android:id="@+id/LogOut"/>
+    </group>
+
+
+
+</menu>
